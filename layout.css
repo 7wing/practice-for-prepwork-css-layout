@@ -1,1 +1,34 @@
+:root {
+    box-sizing: content-box;
+}
 
+body {
+    background-image: url(math-page-background.jpg);
+    background-repeat: repeat;
+    padding: 50px 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+fieldset {
+    background-color: white;
+}
+
+legend {
+    border: 1px solid black;
+    text-align: start;
+    padding: 4px;
+    background-color: white;
+}
+
+input {
+    margin: 5px 0;
+}
+
+div {
+    padding: 5px;
+}
+
+.status, .date {
+    display: inline-block;
+}
